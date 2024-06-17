@@ -9,7 +9,7 @@
 
 ### Example Dataset
 
-| `te_id` | text_content                              | `anno_id` | happy | sad | anger | fear | surprise | disgust | neutral |
+| `tex_id` | text_content                              | `anno_id` | happy | sad | anger | fear | surprise | disgust | neutral |
 |-----------|-------------------------------------------|----------------|-------|-----|-------|------|----------|---------|---------|
 | 1         | I had a great day today!                  | 1              | 1     | 0   | 0     | 0    | 0        | 0       | 0       |
 | 1         | I had a great day today!                  | 2              | 1     | 0   | 0     | 0    | 0        | 0       | 0       |
