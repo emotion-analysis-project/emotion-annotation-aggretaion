@@ -67,3 +67,7 @@ Calculate the majority vote for each emotion category by summing the votes from 
 | 3         | The movie was boring. | surprise  | 0           | 0           | 0           | 0             |
 | 3         | The movie was boring. | disgust   | 1           | 0           | 1           | 1             |
 | 3         | The movie was boring. | neutral   | 0           | 0           | 0           | 0             |
+
+
+
+In this format, each row represents a combination of a text sample and an emotion category. The votes from each annotator are provided, and the majority_vote column indicates the final label based on the majority vote across the three annotators. The majority_vote column is the ground truth label for our dataset.
