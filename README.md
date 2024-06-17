@@ -65,9 +65,11 @@ Calculate the majority vote for each emotion category by summing the votes from 
 In this format, each row represents a combination of a text sample and an emotion category. The votes from each annotator are provided, and the majority_vote column indicates the final label based on the majority vote across the three annotators. The majority_vote column is the ground truth label for our dataset.
 
 
+We can use the dataset above in two settings: Single-Label Emotion Classification and Multi-Label Emotion Classification
+
+
 ###  Single-Label Emotion Classification and Multi-Label Emotion Classification
 
-We can use the dataset above in two settings: Single-Label Emotion Classification and Multi-Label Emotion Classification
 
 In single-label classification, we will filter the dataset to include only those instances where all three annotators agree on a single emotion class for each text. This filtered dataset will be used to analyze the presence or absence of a single emotion. Below is an example of single Emotion Classification Dataset
 
