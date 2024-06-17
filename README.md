@@ -9,7 +9,7 @@
 
 ### Example Dataset Structure
 
-| `text_id` | text_content         | `annotator_id` | happy | sad | anger | fear | surprise | disgust | neutral |
+| `text_id` | `text_content`         | `annotator_id` | happy | sad | anger | fear | surprise | disgust | neutral |
 |-----------|----------------------|----------------|-------|-----|-------|------|----------|---------|---------|
 | 1         | This is a happy text | 1001           | 1     | 0   | 0     | 0    | 0        | 0       | 0       |
 | 2         | This is a sad text   | 1002           | 0     | 1   | 0     | 0    | 0        | 0       | 0       |
