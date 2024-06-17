@@ -62,6 +62,30 @@ Calculate the majority vote for each emotion category by summing the votes from 
 | 2         | I failed the exam.    | neutral   | 0           | 0           | 0           | 0             |
 
 
-
-
 In this format, each row represents a combination of a text sample and an emotion category. The votes from each annotator are provided, and the majority_vote column indicates the final label based on the majority vote across the three annotators. The majority_vote column is the ground truth label for our dataset.
+
+
+###  Single-Label Emotion Classification and Multi-Label Emotion Classification
+
+We can use the dataset above in two settings: Single-Label Emotion Classification and Multi-Label Emotion Classification
+
+In single-label classification, we will filter the dataset to include only those instances where all three annotators agree on a single emotion class for each text. This filtered dataset will be used to analyze the presence or absence of a single emotion. Below is an example of single Emotion Classification Dataset
+
+| `text_id` | text_content          | emotion   | annotator_1 | annotator_2 | annotator_3 | majority_vote |
+|-----------|-----------------------|-----------|-------------|-------------|-------------|---------------|
+| 1         | It's a sunny day!     | happy     | 1           | 1           | 1           | 1             |
+| 2         | I failed the exam.    | sad       | 1           | 1           | 1           | 1             |
+
+
+
+In multi-label classification, we will filter on instances where a text has more than one emotion class annotated by different annotators (majority vote). This filtered dataset will be used for multi-class emotion classification problems.
+Below is an example Multi-Emotion Classification Dataset
+
+## Multi-Emotion Classification Dataset
+
+| `text_id` | text_content          | emotion   | annotator_1 | annotator_2 | annotator_3 | majority_vote |
+|-----------|-----------------------|-----------|-------------|-------------|-------------|---------------|
+| 4         | I missed the bus.     | sad       | 1           | 1           | 1           | 1             |
+| 4         | I missed the bus.     | anger     | 1           | 1           | 0           | 1             |
+
+
