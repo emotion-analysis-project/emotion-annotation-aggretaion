@@ -9,7 +9,7 @@
 
 ### Example Dataset
 
-| `text_id` | text_content                              | `annotator_id` | happy | sad | anger | fear | surprise | disgust | neutral |
+| `te_id` | text_content                              | `anno_id` | happy | sad | anger | fear | surprise | disgust | neutral |
 |-----------|-------------------------------------------|----------------|-------|-----|-------|------|----------|---------|---------|
 | 1         | I had a great day today!                  | 1              | 1     | 0   | 0     | 0    | 0        | 0       | 0       |
 | 1         | I had a great day today!                  | 2              | 1     | 0   | 0     | 0    | 0        | 0       | 0       |
@@ -17,6 +17,4 @@
 | 2         | My dog passed away this morning.          | 1              | 0     | 1   | 0     | 0    | 0        | 0       | 0       |
 | 2         | My dog passed away this morning.          | 2              | 0     | 1   | 0     | 0    | 0        | 0       | 0       |
 | 2         | My dog passed away this morning.          | 3              | 0     | 1   | 0     | 0    | 0        | 0       | 0       |
-| 3         | I missed the bus because of the traffic jam. | 1           | 0     | 0   | 1     | 0    | 0        | 0       | 0       |
-| 3         | I missed the bus because of the traffic jam. | 2           | 0     | 0   | 0     | 0    | 1        | 0       | 0       |
-| 3         | I missed the bus because of the traffic jam. | 3           | 0     | 0   | 1     | 0    | 0        | 0       | 0       |
+
