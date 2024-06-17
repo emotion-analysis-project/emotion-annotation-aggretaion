@@ -60,13 +60,7 @@ Calculate the majority vote for each emotion category by summing the votes from 
 | 2         | I failed the exam.    | surprise  | 0           | 0           | 0           | 0             |
 | 2         | I failed the exam.    | disgust   | 0           | 0           | 1           | 0             |
 | 2         | I failed the exam.    | neutral   | 0           | 0           | 0           | 0             |
-| 3         | The movie was boring. | happy     | 0           | 0           | 0           | 0             |
-| 3         | The movie was boring. | sad       | 0           | 1           | 0           | 0             |
-| 3         | The movie was boring. | anger     | 1           | 0           | 0           | 0             |
-| 3         | The movie was boring. | fear      | 0           | 0           | 0           | 0             |
-| 3         | The movie was boring. | surprise  | 0           | 0           | 0           | 0             |
-| 3         | The movie was boring. | disgust   | 1           | 0           | 1           | 1             |
-| 3         | The movie was boring. | neutral   | 0           | 0           | 0           | 0             |
+
 
 
 
