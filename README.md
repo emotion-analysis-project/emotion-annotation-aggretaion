@@ -5,7 +5,10 @@
 - **text_id**: A unique identifier for the text sample.
 - **text_content**: The actual text content that needs to be classified for emotions.
 - **annotator_id**: A unique identifier for the annotator who provided the emotion labels for the given text sample.
-- **happy, sad, anger, fear, surprise, disgust, neutral**: These columns represent the emotion labels provided by the annotator. Each column contains a binary value (0 or 1) indicating the absence or presence of that particular emotion in the text sample, as perceived by the annotator. Note: A text can have multiple emotion (e.g., in the first example below, the first annotator has both happy and suprise). 
+- **happy, sad, anger, fear, surprise, disgust, neutral**: These columns represent the emotion labels provided by the annotator. Each column contains a binary value (0 or 1) indicating the absence or presence of that particular emotion in the text sample, as perceived by the annotator. Note: A text can have multiple emotion (e.g., in the first example below, the first annotator has both happy and surprise). 
+
+
+
 
 ### Example Dataset
 
@@ -20,6 +23,14 @@
 3 | The movie was boring. | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0
 3 | The movie was boring. | 2 | 0 | 1 | 0 | 0 | 0 | 0 | 0
 3 | The movie was boring. | 3 | 0 | 0 | 0 | 0 | 0 | 1 | 0
+
+
+In this example:
+
+- For the text "It's a sunny day!", one annotator labeled it as "happy" and "surprise", another labeled it as "happy", and the third labeled it as "happy" and "surprise".
+- For the text "I failed the exam.", one annotator labeled it as "sad" and "anger", another labeled it as "sad", and the third labeled it as "sad", "anger", and "disgust".
+- For the text "The movie was boring.", one annotator labeled it as "anger" and "disgust", another labeled it as "sad", and the third labeled it as "disgust".
+
 
 
 ## Data Agreegation
