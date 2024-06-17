@@ -9,7 +9,7 @@
 
 ### Example Dataset
 
-**text_id** | **text_content** | **annotator_id** | **happy** | **sad** | **anger** | **fear** | **surprise** | **disgust** | **neutral**
+**tex_id** | **text_content** | **anno_id** | **happy** | **sad** | **anger** | **fear** | **surprise** | **disgust** | **neutral**
 -----|-----|-----|-----|-----|-----|-----|-----|-----|-----
 1 | It's a sunny day! | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0
 1 | It's a sunny day! | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0
