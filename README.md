@@ -20,16 +20,12 @@
 2 | I failed the exam. | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 0
 2 | I failed the exam. | 2 | 0 | 1 | 0 | 0 | 0 | 0 | 0
 2 | I failed the exam. | 3 | 0 | 1 | 1 | 0 | 0 | 1 | 0
-3 | The movie was boring. | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 0
-3 | The movie was boring. | 2 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-3 | The movie was boring. | 3 | 0 | 0 | 0 | 0 | 0 | 1 | 0
 
 
 In this example:
 
 - For the text "It's a sunny day!", one annotator labeled it as "happy" and "surprise", another labeled it as "happy", and the third labeled it as "happy" and "surprise".
 - For the text "I failed the exam.", one annotator labeled it as "sad" and "anger", another labeled it as "sad", and the third labeled it as "sad", "anger", and "disgust".
-- For the text "The movie was boring.", one annotator labeled it as "anger" and "disgust", another labeled it as "sad", and the third labeled it as "disgust".
 
 
 
