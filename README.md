@@ -1,8 +1,8 @@
-## Emotion Aggregation Dataset Format
+# Emotion Aggregation Dataset Format
 
 Below is an example of dataset aggregation using 3-annotators
 
-###  Emotion Classification Task - Data Structure
+##   Detecting Emotion (multi-label classification and single-label classification) 
 
 
 
@@ -94,3 +94,7 @@ Below is an example Multi-Emotion Classification Dataset
 
 
 We can see text `I missed the bus` has two emotions - sadness and anger. 
+
+
+
+##   Detecting Emotion Intensity (ordinal classification)
