@@ -2,6 +2,8 @@
 
 ### Data Structure
 
+
+
 - **text_id**: A unique identifier for the text sample.
 - **text_content**: The actual text content that needs to be classified for emotions.
 - **annotator_id**: A unique identifier for the annotator who provided the emotion labels for the given text sample.
@@ -10,7 +12,7 @@
 
 
 
-### Example Dataset
+### Example Dataset (3- annotators)
 
 **tex_id** | **text_content** | **anno_id** | **happy** | **sad** | **anger** | **fear** | **surprise** | **disgust** | **neutral**
 -----|-----|-----|-----|-----|-----|-----|-----|-----|-----
