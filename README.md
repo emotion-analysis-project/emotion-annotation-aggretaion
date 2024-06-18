@@ -80,10 +80,12 @@ In single-label classification, we will filter the dataset to include only those
 
 
 
-In multi-label classification, we will filter on instances where a text has more than one emotion class annotated by different annotators (majority vote). This filtered dataset will be used for multi-class emotion classification problems.
-Below is an example Multi-Emotion Classification Dataset
+
 
 ## Multi-Emotion Classification Dataset
+
+In multi-label classification, we will filter on instances where a text has more than one emotion class annotated by different annotators (majority vote). This filtered dataset will be used for multi-class emotion classification problems.
+Below is an example Multi-Emotion Classification Dataset
 
 | `text_id` | text_content          | emotion   | annotator_1 | annotator_2 | annotator_3 | majority_vote |
 |-----------|-----------------------|-----------|-------------|-------------|-------------|---------------|
