@@ -93,3 +93,4 @@ Below is an example Multi-Emotion Classification Dataset
 | 4         | I missed the bus.     | anger     | 1           | 1           | 0           | 1             |
 
 
+We can see text `I missed the bus` has two emotions - sadness and anger. 
