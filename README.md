@@ -1,5 +1,7 @@
 ## Emotion Aggregation Dataset Format
 
+Below is an example of dataset aggregation using 3-annotators
+
 ### Data Structure
 
 
