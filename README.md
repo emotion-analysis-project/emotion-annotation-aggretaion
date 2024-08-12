@@ -24,6 +24,7 @@ Below is an example of dataset aggregation using 3-annotators
 2 | I failed the exam. | 1 | 0 | 1 | 1 | 0 | 0 | 0 
 2 | I failed the exam. | 2 | 0 | 1 | 0 | 0 | 0 | 0 
 2 | I failed the exam. | 3 | 0 | 1 | 1 | 0 | 0 | 1 
+3 | I saw the dog on monday! | 1 | 0 | 0 | 0 | 0 | 0 | 0
 
 
 In this example:
