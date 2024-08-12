@@ -9,7 +9,7 @@ Below is an example of dataset aggregation using 3-annotators
 - **text_id**: A unique identifier for the text sample.
 - **text_content**: The actual text content that needs to be classified for emotions.
 - **annotator_id**: A unique identifier for the annotator who provided the emotion labels for the given text sample.
-- **happy, sad, anger, fear, surprise, disgust, neutral**: These columns represent the emotion labels provided by the annotator. Each column contains a binary value (0 or 1) indicating the absence or presence of that particular emotion in the text sample, as perceived by the annotator. Note: A text can have multiple emotion (e.g., in the first example below, the first annotator has both happy and surprise). 
+- **happy, sad, anger, fear, surprise, disgust**: These columns represent the emotion labels provided by the annotator. Each column contains a binary value (0 or 1) indicating the absence or presence of that particular emotion in the text sample, as perceived by the annotator. Note: A text can have multiple emotion (e.g., in the first example below, the first annotator has both happy and surprise). 
 
 
 
@@ -37,7 +37,7 @@ In this example:
 
 To aggregate the emotion labels using majority voting when there are three annotators, you can follow these steps:
 
-For each text sample, create a separate row for each emotion category (happy, sad, anger, fear, surprise, disgust, neutral).
+For each text sample, create a separate row for each emotion category (happy, sad, anger, fear, surprise, disgust).
 In each row, include the text content, emotion category, and the votes (0 or 1) from each annotator for that emotion category.
 Calculate the majority vote for each emotion category by summing the votes from the three annotators. If the sum is greater than or equal to 2, the majority vote is 1 (indicating the presence of that emotion); otherwise, the majority vote is 0.
 
@@ -52,14 +52,12 @@ Calculate the majority vote for each emotion category by summing the votes from 
 | 1         | It's a sunny day!     | fear      | 0           | 0           | 0           | 0             |
 | 1         | It's a sunny day!     | surprise  | 1           | 0           | 1           | 1             |
 | 1         | It's a sunny day!     | disgust   | 0           | 0           | 0           | 0             |
-| 1         | It's a sunny day!     | neutral   | 0           | 0           | 0           | 0             |
 | 2         | I failed the exam.    | happy     | 0           | 0           | 0           | 0             |
 | 2         | I failed the exam.    | sad       | 1           | 1           | 1           | 1             |
 | 2         | I failed the exam.    | anger     | 1           | 0           | 1           | 1             |
 | 2         | I failed the exam.    | fear      | 0           | 0           | 0           | 0             |
 | 2         | I failed the exam.    | surprise  | 0           | 0           | 0           | 0             |
 | 2         | I failed the exam.    | disgust   | 0           | 0           | 1           | 0             |
-| 2         | I failed the exam.    | neutral   | 0           | 0           | 0           | 0             |
 
 
 In this format, each row represents a combination of a text sample and an emotion category. The votes from each annotator are provided, and the majority_vote column indicates the final label based on the majority vote across the three annotators. The majority_vote column is the ground truth label for our dataset.
