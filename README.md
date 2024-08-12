@@ -25,13 +25,15 @@ Below is an example of dataset aggregation using 3-annotators
 2 | I failed the exam. | 2 | 0 | 1 | 0 | 0 | 0 | 0 
 2 | I failed the exam. | 3 | 0 | 1 | 1 | 0 | 0 | 1 
 3 | I saw the dog on monday! | 1 | 0 | 0 | 0 | 0 | 0 | 0
+3 | I saw the dog on monday! | 2 | 0 | 0 | 0 | 0 | 0 | 0
+3 | I saw the dog on monday! | 3 | 0 | 0 | 0 | 0 | 0 | 0
 
 
 In this example:
 
 - For the text "It's a sunny day!", one annotator labeled it as "happy" and "surprise", another labeled it as "happy", and the third labeled it as "happy" and "surprise".
 - For the text "I failed the exam.", one annotator labeled it as "sad" and "anger", another labeled it as "sad", and the third labeled it as "sad", "anger", and "disgust".
-
+- For the text "I saw the dog on monday!", all annotators agreed that there is no emotion expressed. It can be interepreted as "none of the emtions" or "neutral"
 
 
 ## Data Agreegation
