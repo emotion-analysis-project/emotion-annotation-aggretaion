@@ -16,14 +16,14 @@ Below is an example of dataset aggregation using 3-annotators
 
 ### Example Dataset (3- annotators)
 
-**tex_id** | **text_content** | **anno_id** | **happy** | **sad** | **anger** | **fear** | **surprise** | **disgust** | **neutral**
------|-----|-----|-----|-----|-----|-----|-----|-----|-----
-1 | It's a sunny day! | 1 | 1 | 0 | 0 | 0 | 1 | 0 | 0
-1 | It's a sunny day! | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0
-1 | It's a sunny day! | 3 | 1 | 0 | 0 | 0 | 1 | 0 | 0
-2 | I failed the exam. | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 0
-2 | I failed the exam. | 2 | 0 | 1 | 0 | 0 | 0 | 0 | 0
-2 | I failed the exam. | 3 | 0 | 1 | 1 | 0 | 0 | 1 | 0
+**tex_id** | **text_content** | **anno_id** | **happy** | **sad** | **anger** | **fear** | **surprise** | **disgust** 
+-----|-----|-----|-----|-----|-----|-----|-----|-----
+1 | It's a sunny day! | 1 | 1 | 0 | 0 | 0 | 1 | 0 
+1 | It's a sunny day! | 2 | 1 | 0 | 0 | 0 | 0 | 0 
+1 | It's a sunny day! | 3 | 1 | 0 | 0 | 0 | 1 | 0 
+2 | I failed the exam. | 1 | 0 | 1 | 1 | 0 | 0 | 0 
+2 | I failed the exam. | 2 | 0 | 1 | 0 | 0 | 0 | 0 
+2 | I failed the exam. | 3 | 0 | 1 | 1 | 0 | 0 | 1 
 
 
 In this example:
